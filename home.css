@@ -15,18 +15,11 @@
      background-position: center ;
      position: relative;
  }
- .book-header {
-    min-height: 100vh;
-    width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(mountain.jpg);
-    background-size: cover;
-    background-position: center ;
-    position: relative;
-}
+
 .about-header {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(mountain.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Scotland1.jpeg);
     background-size: cover;
     background-position: center ;
     position: relative;
@@ -34,7 +27,7 @@
 .packages-header {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(mountain.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Scotland4.jpeg);
     background-size: cover;
     background-position: center ;
     position: relative;
@@ -42,7 +35,7 @@
 .services-header {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(mountain.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Scotland5.jpeg);
     background-size: cover;
     background-position: center ;
     position: relative;
@@ -50,7 +43,7 @@
 .gallery-header {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(mountain.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Scotland2.jpeg);
     background-size: cover;
     background-position: center ;
     position: relative;
@@ -58,7 +51,7 @@
 .book-header {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(mountain.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Scotland3.jpeg);
     background-size: cover;
     background-position: center ;
     position: relative;
@@ -67,7 +60,7 @@
 .contact-header {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(mountain.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Scotland6.jpeg);
     background-size: cover;
     background-position: center ;
     position: relative;
@@ -355,13 +348,18 @@
      font-size: 15px;
  }
  
- .checked {
-     color: #362985;
+ .star .fa {
+     color: #3f89ae;
  }
  
  .star i {
      font-size: 15px;
  }
+ .star  {
+    color: #3f89ae;
+    margin: 0 13px,
+}
+
  
  .packages .card .card-body h6 {
      font-size: 20px;
@@ -447,9 +445,9 @@
      height:38px;
      border: none;
      border-radius: 5px;
-     background:#362985;
+     background:#3f89ae;
      color: white;
-     letter-spacing: 2px;
+     letter-spacing: 1px;
      font-family: 550;
      transition: 0.5s ease;
      cursor: pointer;
