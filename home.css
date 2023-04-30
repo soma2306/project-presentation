@@ -284,7 +284,55 @@
  .book .submit:hover{
      width:170px;
  }
+ .contact .location iframe {
+    width:100%;
+ }
+
  
+ .contact .cards {
+    background: #d2cfdf;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px rgb(18, 18, 18);
+
+}
+.contact .row {
+    margin-top: 30px;
+}
+.contact form input {
+    padding:10px;
+    color: rgb(99,94,111);
+    border:none;
+    outline:none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px rgb(76, 80, 102);
+
+
+}
+.contact form textarea {
+    border:none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px rgb(99, 94, 111);
+    height: 100px;
+
+    
+}
+.contact .submit {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #3f89ae;
+    color:#d2cfe2;
+    margin-top: 10px;
+    transition: .5s;
+
+}
+.contact .submit:hover{
+    width:170px;
+}
+
  
  .main-txt h1 {
         text-align: center;
@@ -298,19 +346,82 @@
      color:#362985;
      
  }
- .review .card {
+
+
+
+
+
+ 
+ 
+ .packages .card {
     border-radius: 5px;
     border:none;
     box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
 }
-.review .card img {
-    border-radius: 50%;
-    height:20px;
+
+
+.packages .card img {
+    border-radius: 5px;
 
 }
+
+.packages .card .card-body {
+    background: transparent;
+}
+
+.packages .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p {
+    font-size: 15px;
+}
+
+.star .fa {
+    color: #3f89ae;
+}
+
+.star i {
+    font-size: 15px;
+}
+.star  {
+   color: #3f89ae;
+   margin: 0 13px,
+}
+
+
+.packages .card .card-body h6 {
+    font-size: 20px;
+}
+.packages .card .card-body a {
+    padding: 10px;
+    text-decoration: none;
+    background:#362985 ;
+    color: white;
+    border-radius: 5px;
+}
+.review {
+    background: #d2cfdf;
+ 
+ }
+.review .card {
+    border-radius: 5px;
+    border:none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+
+
+.review .card img {
+    border-radius: 50%;
+   margin-left: 30px;
+   margin-top: 20px;
+
+}
+
 .review .card .card-body {
     background: transparent;
 }
+
 .review .card .card-body h3 {
     font-size: 25px;
     font-weight: 600;
@@ -318,60 +429,33 @@
 .review .card .card-body p {
     font-size: 15px;
 }
-.testimonials-col img {
-    height: 40px;
-    border-radius: 50%;
-}
 
- 
- .packages .card {
-     border-radius: 5px;
-     border:none;
-     box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
- }
- 
- 
- .packages .card img {
-     border-radius: 5px;
- 
- }
- 
- .packages .card .card-body {
-     background: transparent;
- }
- 
- .packages .card .card-body h3 {
-     font-size: 25px;
-     font-weight: 600;
- }
- .packages .card .card-body p {
-     font-size: 15px;
- }
- 
- .star .fa {
-     color: #3f89ae;
- }
- 
- .star i {
-     font-size: 15px;
- }
- .star  {
+.star .fa {
     color: #3f89ae;
-    margin: 0 13px,
 }
 
+.star i {
+    font-size: 15px;
+}
+.star  {
+   color: #3f89ae;
+   margin: 0 13px,
+}
+
+
+.review .card .card-body h6 {
+    font-size: 20px;
+}
+.review .card .card-body a {
+    padding: 10px;
+    text-decoration: none;
+    background:#362985 ;
+    color: white;
+    border-radius: 5px;
+}
  
- .packages .card .card-body h6 {
-     font-size: 20px;
- }
- .packages .card .card-body a {
-     padding: 10px;
-     text-decoration: none;
-     background:#362985 ;
-     color: white;
-     border-radius: 5px;
- }
- 
+
+
  .services {
      background: #d2cfe2;
    padding: 50px;
