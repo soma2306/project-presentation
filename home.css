@@ -17,16 +17,15 @@
     justify-content: space-between;
     align-items: center;
 }
+
 nav img {
     width:150px;
-
 }
+
 .nav-links {
     flex: 1;
     text-align: right;
-
 }
-
 
 .nav-links ul li {
     list-style-type: none;
@@ -34,6 +33,7 @@ nav img {
    
     position: relative;
 }
+
 .nav-links ul li a{
     text-decoration: none;
     color: white ;
@@ -42,6 +42,7 @@ nav img {
     border: 1px solid transparent;
     transition: o.6s ease;
 }
+
 .nav-links ul li::after {
     content:"" ;
     height: 2px;
@@ -51,11 +52,10 @@ nav img {
     margin: auto;
     transition: 0.5s;
 }
+
 .nav-links ul li:hover::after {
            width: 100%;
 }
-
-
 
 ul li.active {
 
@@ -63,17 +63,14 @@ ul li.active {
     background-color:#3f89ae ;
     color: blue;
     border: 1px solid transparent,
-    
-
 }
+
 .logo img {
     padding-top: 10px;
     float: left;
     width: 120px;
     height:auto;
 }
-
-
 
 .title {
     position: absolute;
@@ -82,22 +79,26 @@ ul li.active {
     transform: translate(-50%,-50%);
     text-align: center;
 }
+
 .title h1 {
     color: white;
     font-size: 50px;
 }
+
 .title p {
     margin: 10px 0 40px;
     font-size: 20px;
     color: aliceblue;
     text-align: center;
 }
+
 .button {
     position: absolute;
     top: 70%;
     left:50%;
     transform: translate(-50%,-50%);
 }
+
 .white-btn {
     border: 2px solid white;
     padding: 10px 30px;
@@ -109,10 +110,12 @@ ul li.active {
     position: relative; 
     cursor: pointer;
 }
+
 .white-btn:hover {
     background-color: rgb(234, 242, 242);
     color: blue;
 }
+
 nav .fa {
     display: none;
 }
@@ -126,62 +129,40 @@ nav .fa {
     position: relative;
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
 p {
     color:rgb(40, 36, 80);
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-
 }
+
+
+
 .welcome {
    background: #d2cfdf;
    padding: 50px;
 }
+
 .welcome-text h1 {
    text-align: center;
    text-shadow: 0px 1px 1px rgb(116, 111, 135);
    font-weight: 600;
    color:#3f89ae; 
 }
+
 .welcome-text h1 span {
    color:#362985
 }
+
 .welcome-text p {
-   color:#362985;
-}
-.review .card-body h3 {
-   color:#3f89ae;
-}
-.review .card-body p {
    color:#362985;
 }
 
-.welcome {
+
+.review {
     background: #d2cfdf;
-    padding: 50px;
- }
- .welcome-text h1 {
-    text-align: center;
-    text-shadow: 0px 1px 1px rgb(116, 111, 135);
-    font-weight: 600;
-    color:#3f89ae; 
-}
-.welcome-text h1 span {
-    color:#362985
-}
-.welcome-text p {
-    color:#362985;
-}
-.review .card-body h3 {
-    color:#3f89ae;
-}
-.review .card-body p {
-    color:#362985;
+    padding-bottom:50px;
 }
 
 .review-text h2 {
@@ -190,41 +171,36 @@ p {
      font-weight: 600;
      color:#3f89ae;
 }
+
  .review-text h2 span {
     color:#362985;
  }
 
- .review {
-    background: #d2cfdf;
-    padding-bottom:50px;
-
-
- 
- }
-.review .card {
+ .review .card {
     border-radius: 5px;
     border:none;
     box-shadow:gray 0px 4px 12px;
 }
 
-
 .review .card img {
-    border-radius: 50%;
+   border-radius: 50%;
    margin-left: 30px;
    margin-top: 20px;
-
 }
 
 .review .card .card-body {
     background: transparent;
 }
 
-.review .card .card-body h3 {
-    font-size: 25px;
-    font-weight: 600;
+.review .card-body h3 {
+   color:#3f89ae;
+   font-size: 25px;
+   font-weight: 600;
 }
-.review .card .card-body p {
-    font-size: 15px;
+
+.review .card-body p {
+   color:#362985;
+   font-size: 15px;
 }
 
 .star .fa {
@@ -234,38 +210,19 @@ p {
 .star i {
     font-size: 15px;
 }
-.star  {
-   color: #3f89ae;
-   margin: 0 13px,
-}
-
-
-.review .card .card-body h6 {
-    font-size: 20px;
-}
-.review .card .card-body a {
-    padding: 10px;
-    text-decoration: none;
-    background:#362985 ;
-    color: white;
-    border-radius: 5px;
-}
-
- .main-text h1 {
-     text-align: center;
-     text-shadow: 0px 1px 1px rgb(116, 111, 135);
-     font-weight: 600;
-     color:#3f89ae;
- }
- .main-text h1 span {
-     color:#362985
- }
 
 
 /*..........home page ends..........*/
+  
 
 
 /*..........about page starts........*/
+
+
+.about {
+    padding:50px;
+    background:#d2cfdf;
+}
 
 .about-header {
     min-height: 100vh;
@@ -276,16 +233,8 @@ p {
     position: relative;
 }
 
-
-.about {
-    padding:50px;
-  
-    background:#d2cfdf;
-}
-
 .about .card {
- 
-    border-radius: 10px;
+      border-radius: 10px;
     
 }
 
@@ -301,13 +250,16 @@ p {
  color:#362985;
  
 }
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .about .card img {
-  
-    border-radius: 10px;
-   
-       border-radius: 5px;
-       border:none;
-       box-shadow:gray 0px 4px 12px;
+    border-radius: 5px;
+    border:none;
+    box-shadow:gray 0px 4px 12px;
    }
     
 .about h2 {
@@ -316,6 +268,7 @@ p {
     letter-spacing: 1px;
     color: #3f89ae;
 }
+
 .about p {
     font-weight: 500;
     color:#362985;
@@ -336,9 +289,18 @@ p {
     width: 170px;
 }
 
+
  /*..........about page ends..........*/
 
-/*..........packages page starts........*/
+
+
+ /*..........packages page starts........*/
+  
+ 
+.packages {
+    padding:50px;
+    background:#d2cfdf;
+}
 
 .packages-header {
     min-height: 100vh;
@@ -349,12 +311,23 @@ p {
     position: relative;
 }
 
+.main-text h1 {
+    text-align: center;
+    text-shadow: 0px 1px 1px rgb(116, 111, 135);
+    font-weight: 600;
+    color:#3f89ae;
+    font-size: 36px;
+}
+
+.main-text h1 span {
+    color:#362985
+}
+
 .packages .card {
     border-radius: 5px;
     border:none;
     box-shadow:grey 0px 4px 12px;
 }
-
 
 .packages .card img {
     border-radius: 5px;
@@ -385,29 +358,11 @@ p {
 .star i {
     font-size: 15px;
 }
-.star  {
-   color: #3f89ae;
-   margin: 0 13px,
-}
-
 
 .packages .card .card-body h6 {
     font-size: 20px;
 }
-.packages .card .card-body a {
-    padding: 10px;
-    text-decoration: none;
-    background:#3f89ae ;
-    color: white;
-    border-radius: 5px;
-    
-}
 
-.packages {
-    padding:50px;
-  
-    background:#d2cfdf;
-}
 #packages-btn {
     width: 90px;
     height:38px;
@@ -424,9 +379,18 @@ p {
     width: 120px;
 }
 
- /*..........packages page ends..........*/
 
- /*..........services page starts........*/
+/*..........packages page ends..........*/
+
+ 
+
+/*..........services page starts........*/
+
+.services {
+    background: #d2cfe2;
+    padding: 50px;
+}
+
 .services-header {
     min-height: 100vh;
     width: 100%;
@@ -436,16 +400,13 @@ p {
     position: relative;
 }
 
-.services {
-    background: #d2cfe2;
-  padding: 50px;
-}
-
 .services .card {
+    border-radius: 10px;
     box-shadow:  gray 0px 4px 12px;
     border:none;
     cursor: pointer;
 }
+
 .services .card i {
     font-size: 80px;
     text-align: center;
@@ -466,15 +427,20 @@ p {
 .services .card .card-body p {
        color:#362985;
 }
-.service .card {
-    border-radius: 10px;
-    box-shadow: gray 0px 4px 12px;
-    cursor: pointer;
-}
+
 
  /*..........services page ends..........*/
 
+
+
   /*..........gallery page starts........*/
+  
+  
+  .gallery {
+  
+    background:#d2cfe2;
+    padding: 50px;
+}
 
 .gallery-header {
     min-height: 100vh;
@@ -485,11 +451,6 @@ p {
     position: relative;
 }
 
-.gallery {
-  
-    background:#d2cfe2;
-    padding: 50px;
-}
 .gallery .card {
     border-radius: 10px;
     box-shadow: gray 0px 4px 12px;
@@ -507,7 +468,15 @@ p {
 
  /*..........gallery page ends..........*/
 
+
+
  /*..........book page starts........*/
+
+
+ .book {
+    background: #d2cfdf;
+    padding: 50px;
+}
 
 .book-header {
     min-height: 100vh;
@@ -518,10 +487,20 @@ p {
     position: relative;
 }
 
-.book {
-    background: #d2cfdf;
-    padding: 50px;
+.main-text h1 {
+    text-align: center;
+    text-shadow: 0px 1px 1px rgb(116, 111, 135);
+    font-weight: 600;
+    color:#3f89ae;
+    font-size: 36px;
+}
 
+.main-text h1 span {
+    color:#362985
+}
+
+.book .row {
+    margin-top: 30px;
 }
 
 .book .cards {
@@ -533,10 +512,6 @@ p {
    box-shadow:  gray 0px 4px 12px;
 }
 
-
-.book .row {
-    margin-top: 30px;
-}
 .book form input {
     padding:10px;
     color: rgb(99,94,111);
@@ -545,18 +520,16 @@ p {
     font-size: 15px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px rgb(38, 39, 46);
-
-
 }
+
 .book form textarea {
     border:none;
     border-radius: 10px;
     resize: none;
     box-shadow: gray 0px 4px 12px; 
     height: 100px;
-
-    
 }
+
 .book .submit {
     width: 160px;
     font-size: 16px;
@@ -565,17 +538,30 @@ p {
     color:#d2cfe2;
     margin-top: 10px;
     transition: .5s;
-
 }
+
 .book .submit:hover{
     width:170px;
 }
 
- /*..........book page ends..........*/
+ 
+/*..........book page ends..........*/
+
+
 
  /*..........contact page starts........*/
 
-.contact-header {
+
+ .contact {
+    background: #d2cfdf;
+    padding: 50px;
+ }
+ 
+ .contact .row {
+    margin-top: 30px;
+}
+
+ .contact-header {
     min-height: 100vh;
     width: 100%;
     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Scotland6.jpeg);
@@ -588,32 +574,25 @@ p {
     width:100%;
  }
 
-
- .contact .cards {
+.contact .cards {
     background: #d2cfdf;
     padding: 50px;
     border-radius: 10px;
     box-shadow:0px 5px 5px -6px rgb(18, 18, 18);;
+}
 
-}
-.contact h5 {
-    color:#362985;
-}
-.contact p {
-    color: #362985;
-}
 .contact .fa {
     color:#3f89ae;
 }
 
-.contact {
-    background: #d2cfdf;
-    padding: 50px;
- }
-
-.contact .row {
-    margin-top: 30px;
+.contact h5 {
+    color:#362985;
 }
+
+.contact p {
+    color: #362985;
+}
+
 .contact form input {
     padding:10px;
     color: rgb(99,94,111);
@@ -622,18 +601,16 @@ p {
     font-size: 15px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px rgb(76, 80, 102);
-
-
 }
+
 .contact form textarea {
     border:none;
     border-radius: 10px;
     resize: none;
     box-shadow: 0px 5px 5px -6px rgb(99, 94, 111);
     height: 100px;
-
-    
 }
+
 .contact .submit {
     width: 160px;
     font-size: 16px;
@@ -642,23 +619,27 @@ p {
     color:#d2cfe2;
     margin-top: 10px;
     transition: .5s;
-
 }
+
 .contact .submit:hover{
     width:170px;
 }
 
+
 /*..........contact page ends........*/
 
 
+
 /*........footer starts......*/
+
+
 
  #footer {
      width: 100%;
      margin-top: 150px;
      text-align: center;
-   
- }
+   }
+
  #footer h3 {
      font-weight: 600;
      padding-top:10px;
@@ -666,10 +647,12 @@ p {
      font-size: 20px;
      color:#3f89ae;
  }
+
  #footer h3 span {
      color:#362985;
      font-size: 20px;
  }
+
  .socal-links {
      padding:10px;
      border-radius:5px;
@@ -677,31 +660,50 @@ p {
      background: black;
      color:white;
      margin-left: 10px;
-   
      transition: 0.5s ease;
      cursor: pointer;
  }
+
  .social-links i:hover {
      background:#3f89ae;
  }
  
- .row {
-     margin-top: 5%;
-     display: flex;
-     justify-content: space-between;
- }
-
- .fa-heart-o {
+.fa-heart-o {
     color: red;
 }
  
  /*........footer ends......*/
 
 
+
+
+/*..... @media  starts.....*/
+
+
  @media(max-width: 700px) {
-    .title h1{
-        font-size: 10px;
+
+
+/*..... @media home page starts.....*/
+
+.title h1{
+        font-size: 15px;
 }
+.white-btn {
+   padding: 6px 6px;
+   font-size: 8px;
+}
+p {
+    color: rgb(40, 36, 80);
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.title p {
+    font-size: 8px;
+}
+
 
 .nav-links ul li {
     display: inline-block;
@@ -724,17 +726,168 @@ nav .fa {
     font-size:22px;
     cursor:pointer;
 }
+nav img {
+    width:50px;
+}
 .nav-links ul {
     padding: 30px;
 }
+.header {
+    min-height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Scotland7.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.review .card-body h3 {
+    color: #3f89ae;
+    font-size: 20px;
+    font-weight: 600;
+}
+.review .card-body p {
+    color: #362985;
+    font-size: 12px;
 }
 
- 
- @media(max-width: 700px) {
-     .row {
-         flex-direction: column;
-     }
- }
+#footer h3 {
+    font-weight: 500;
+    padding-top: 10px;
+    text-shadow: 0px 0px 1px black;
+    font-size: 18px;
+    color: #3f89ae;
+}
+#footer h3 span {
+    color: #362985;
+    font-size: 18px;
+}
+#footer h6 {
+    font-size: 14px;
+}
+
+/*..... @media home page ends.....*/
+
+
+
+/*..... @media about page starts.....*/
+
+.about-header {
+    min-height: 70vh;
+}
+.main-text h1 {
+    font-size: 30px;
+}
+.about .card img {
+    height:110px;
+    width:150px;
+}
+.about h2 {
+    font-size: 14px;
+}
+#about-btn {
+    width: 100px;
+}
+
+/*..... @media about page ends.....*/
+
+
+
+/*..... @media pakages page starts.....*/
+
+.packages-header {
+    min-height: 70vh;
+    width: 100%;
+}
+.packages .card .card-body h6 {
+    font-size: 15px;
+}
+.star .fa {
+    size: 8px;
+}
+.packages .card .card-body h3 {
+    font-size: 18px;
+}
+.packages .card .card-body p {
+    font-size: 12px;
+}
+
+/*..... @media service page ends.....*/
+
+
+/*..... @media service page starts.....*/
+
+.services-header {
+    min-height: 70vh;
+}
+.services .card .card-body h3 {
+    font-size: 16px;
+}
+
+/*..... @media service page ends.....*/
+
+
+/*..... @media gallery page starts.....*/
+
+.gallery-header {
+    min-height: 70vh;
+    width: 100%;
+}
+.gallery .card img {
+    height:130px;
+    width:130px;
+}
+
+/*..... @media gallery page ends.....*/
+
+
+/*..... @media book page starts.....*/
+
+.book-header {
+    min-height: 70vh;
+}
+.book .cards img {
+    height:120px;
+    width: 140px;
+}
+.book form input {
+  font-size: 12px;
+}
+.book form textarea {
+   font-size: 14px;
+}
+.book .submit {
+    width: 120px;
+}
+
+/*..... @media book page ends.....*/
+
+
+
+/*..... @media contact page starts.....*/
+
+.contact-header {
+    min-height: 70vh;
+}
+.contact h5 {
+    font-size: 15px;
+}
+.contact form input {
+   font-size: 11px;
+}
+.contact form textarea {
+ font-size: 14px;
+}
+.contact .submit {
+    width: 120px;
+}
+/*..... @media contact page ends.....*/
+
+}
+
+
+/*..... @media ends.....*/
+
+
  
  
  
