@@ -116,9 +116,7 @@ ul li.active {
     color: blue;
 }
 
-nav .fa {
-    display: none;
-}
+
 
 .header {
     min-height: 100vh;
@@ -238,7 +236,7 @@ p {
     
 }
 
-.main-txt h1 {
+.main-text h1 {
     text-align: center;
     margin-top: 10px;
     font-weight: 600;
@@ -246,9 +244,12 @@ p {
     color:#3f89ae;
 }
 
-.main-txt h1 span {
+.main-text h1 span {
  color:#362985;
  
+}
+.main-text p {
+    color:#362985;
 }
 .row {
     margin-top: 5%;
@@ -322,6 +323,9 @@ p {
 .main-text h1 span {
     color:#362985
 }
+ .main-text p {
+    color:#362985;
+}
 
 .packages .card {
     border-radius: 5px;
@@ -364,7 +368,7 @@ p {
 }
 
 #packages-btn {
-    width: 90px;
+    width: 100px;
     height:38px;
     border: none;
     border-radius: 5px;
@@ -399,6 +403,7 @@ p {
     background-position: center ;
     position: relative;
 }
+
 
 .services .card {
     border-radius: 10px;
@@ -449,6 +454,9 @@ p {
     background-size: cover;
     background-position: center ;
     position: relative;
+}
+.gallery .main-text {
+    color:#362985;
 }
 
 .gallery .card {
@@ -580,17 +588,24 @@ p {
     border-radius: 10px;
     box-shadow:0px 5px 5px -6px rgb(18, 18, 18);;
 }
+.contact.shop img {
+    width:1000px;
+    height:300px;
+}
 
 .contact .fa {
     color:#3f89ae;
+
 }
 
 .contact h5 {
     color:#362985;
+    font-size: 16px;
 }
 
 .contact p {
     color: #362985;
+    font-size: 14px;
 }
 
 .contact form input {
@@ -652,12 +667,20 @@ p {
      color:#362985;
      font-size: 20px;
  }
+ #footer h6 {
+    color:#362985;
+    font-weight: 600;
+ } 
+ #footer p {
+    color:#362985;
+ }
+ 
 
- .socal-links {
+ .social-links i {
      padding:10px;
      border-radius:5px;
-     font-size: 20px;
-     background: black;
+     font-size: 15px;
+     background:#362985;
      color:white;
      margin-left: 10px;
      transition: 0.5s ease;
@@ -676,6 +699,11 @@ p {
 
 
 
+ nav .fa {
+    display: none;
+}
+
+
 
 /*..... @media  starts.....*/
 
@@ -692,16 +720,10 @@ p {
    padding: 6px 6px;
    font-size: 8px;
 }
-p {
-    color: rgb(40, 36, 80);
-    font-size: 11px;
-    font-weight: 200;
-    line-height: 22px;
-    padding: 10px;
-}
+
 
 .title p {
-    font-size: 8px;
+    font-size: 11px;
 }
 
 
@@ -710,9 +732,9 @@ p {
 }
 .nav-links {
     position: fixed;
-    background: rgb(41, 39, 39);
+    background: #3f89ae;
     height: 100vh;
-    width: 200px;
+    width: 150px;
     top: 0;
     right:-200px;
     text-align: left;
@@ -764,6 +786,10 @@ nav img {
 #footer h6 {
     font-size: 14px;
 }
+.social-links i {
+    font-size: 10px;
+    padding: 7px;
+}
 
 /*..... @media home page ends.....*/
 
@@ -777,15 +803,22 @@ nav img {
 .main-text h1 {
     font-size: 30px;
 }
+
+.about div.cards {
+    width:150px;
+}
 .about .card img {
     height:110px;
-    width:150px;
+    width:140px;
+}
+input.form-control {
+    width: 140px;
 }
 .about h2 {
     font-size: 14px;
 }
 #about-btn {
-    width: 100px;
+    width: 120px;
 }
 
 /*..... @media about page ends.....*/
@@ -822,6 +855,9 @@ nav img {
 .services .card .card-body h3 {
     font-size: 16px;
 }
+.services .card i {
+    font-size: 35px;
+}
 
 /*..... @media service page ends.....*/
 
@@ -831,6 +867,9 @@ nav img {
 .gallery-header {
     min-height: 70vh;
     width: 100%;
+}
+.gallery div.card {
+    width: 130px;
 }
 .gallery .card img {
     height:130px;
@@ -845,12 +884,20 @@ nav img {
 .book-header {
     min-height: 70vh;
 }
-.book .cards img {
+.book div.card {
+   
+    width:140px;
+}
+
+.book .card img {
     height:120px;
     width: 140px;
 }
 .book form input {
   font-size: 12px;
+}
+input.form-control {
+    height:auto30px;
 }
 .book form textarea {
    font-size: 14px;
@@ -868,6 +915,7 @@ nav img {
 .contact-header {
     min-height: 70vh;
 }
+
 .contact h5 {
     font-size: 15px;
 }
@@ -879,6 +927,13 @@ nav img {
 }
 .contact .submit {
     width: 120px;
+}
+.contact .card img {
+    width:120px;
+    height:120px;
+}
+.contact div.card {
+     width: 120px;
 }
 /*..... @media contact page ends.....*/
 
