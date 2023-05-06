@@ -162,8 +162,19 @@ p {
     background: #d2cfdf;
     padding-bottom:50px;
 }
+.keyfactor {
+    background: #d2cfdf;
+    padding-bottom:50px;
+}
+
 
 .review-text h2 {
+    text-align: center;
+     text-shadow: 0px 1px 1px rgb(116, 111, 135);
+     font-weight: 600;
+     color:#3f89ae;
+}
+.keyfactor-text h2 {
     text-align: center;
      text-shadow: 0px 1px 1px rgb(116, 111, 135);
      font-weight: 600;
@@ -173,6 +184,10 @@ p {
  .review-text h2 span {
     color:#362985;
  }
+ .keyfactor-text h2 span {
+    color:#362985;
+ }
+
 
  .review .card {
     border-radius: 5px;
@@ -180,14 +195,33 @@ p {
     box-shadow:gray 0px 4px 12px;
 }
 
+
 .review .card img {
    border-radius: 50%;
    margin-left: 30px;
    margin-top: 20px;
 }
+.keyfactor .card img {
+   
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 120px;
+    
+ }
+ 
 
 .review .card .card-body {
     background: transparent;
+}
+.keyfactor .card .card-body {
+    background: transparent;
+}
+#keyfactor .card {
+   
+    border-radius: 5px;
+    border:none;
+    box-shadow:gray 0px 4px 12px;
 }
 
 .review .card-body h3 {
@@ -195,11 +229,22 @@ p {
    font-size: 25px;
    font-weight: 600;
 }
+.keyfactor .card-body h3 {
+    text-align: center;
+    color:#362985;
+    font-size: 25px;
+    font-weight: 600;
+ }
 
 .review .card-body p {
    color:#362985;
    font-size: 15px;
 }
+.keyfactor .card-body p {
+    text-align: center;
+    color:#3f89ae;
+    font-size: 15px;
+ }
 
 .star .fa {
     color: #3f89ae;
@@ -511,12 +556,12 @@ p {
     margin-top: 30px;
 }
 
-.book .cards {
+.book .card {
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px rgb(18, 18, 18);
 
 }
-.book .cards img {
+.book .card img {
    box-shadow:  gray 0px 4px 12px;
 }
 
@@ -588,9 +633,9 @@ p {
     border-radius: 10px;
     box-shadow:0px 5px 5px -6px rgb(18, 18, 18);;
 }
-.contact.shop img {
-    width:1000px;
-    height:300px;
+.contact .card img {
+    box-shadow: 0px 4px 12px;
+   
 }
 
 .contact .fa {
@@ -702,6 +747,148 @@ p {
  nav .fa {
     display: none;
 }
+
+/*.....video page starts...*/
+
+.video-header {
+    min-height:30vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(beach.jpeg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+}
+
+.title-beach {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title-beach h1 {
+    color: white;
+    font-size: 30px;
+    padding-top:30px;
+}
+.video {
+    background: #d2cfdf;
+    padding-bottom: 30px;
+   
+}
+.videos-text h1 {
+    text-align: center;
+    text-shadow: 0px 1px 1px rgb(116, 111, 135);
+    font-weight: 600;
+    color:#3f89ae; 
+    padding-top: 50px;
+
+  
+ }
+ 
+ .videos-text h1 span {
+    color:#362985;
+   
+ }
+ .videos-text p {
+    color:#362985;
+ }
+ .videos .row  h3 {
+    color:#362985;
+    text-align: center;
+   
+ }
+ 
+
+
+
+
+.but-ton {
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.video-btn {
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    transition: o.6s ease;
+    background:transparent;
+    position: relative; 
+    cursor: pointer;
+}
+
+.video-btn:hover {
+    background-color: rgb(234, 242, 242);
+    color: blue;
+}
+
+
+/*..... vieopage  ends.....*/
+
+
+
+/*..... learn page starts.....*/
+.learn-header {
+    min-height:50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(highland1.jpeg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+}
+.title-scenary {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title-scenary h1 {
+    color: white;
+    font-size: 30px;
+    padding-top:70px;
+}
+
+.learn-btn {
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    transition: o.6s ease;
+    background:transparent;
+    position: relative; 
+    cursor: pointer;
+}
+.learn-btn:hover {
+    background-color: rgb(234, 242, 242);
+    color: blue;
+}
+#learn .card {
+    background-image: url(beach.jpeg);
+    border: none;
+   
+  
+}
+.learn .row  h3 {
+    color:#0f4865;
+    text-align: center;
+   
+ }
+ .learn .row  p {
+    color:#362985;
+    text-align: center;
+   
+ }
+
+
+
+/*..... learn page ends.....*/
 
 
 
@@ -937,13 +1124,59 @@ input.form-control {
 }
 /*..... @media contact page ends.....*/
 
+
+/*..... @media video page starts.....*/
+
+video {
+    width:200px;
 }
+
+.title-beach h1 {
+    font-size: 12px;
+}
+.videos-text h1 {
+    font-size: 18px;
+}
+.video-text p {
+    font-size: 15px;
+}
+.video-btn {
+    padding: 6px 10px;
+    font-size: 8px;
+}
+
+#videos .row iframe {
+    height:123px;
+    width:173px;
+}
+
+
+#videos .row h3 {
+       font-size: 15px;
+}
+    
+nav img {
+    width: 40px;
+}
+
+/*..... @media video page ends.....*/
+
+
+/*..... @media learn page starts.....*/
+.title-scenary h1 {
+    font-size: 13px;
+}
+
+
+/*..... @media learn page ends.....*/
+
+
 
 
 /*..... @media ends.....*/
 
 
- 
+}
  
  
  
