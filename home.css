@@ -19,7 +19,7 @@
 }
 
 nav img {
-    width:150px;
+    width:120px;
 }
 
 .nav-links {
@@ -61,16 +61,9 @@ ul li.active {
 
     padding: 5px 1px;
     background-color:#3f89ae ;
-    color: blue;
     border: 1px solid transparent,
 }
 
-.logo img {
-    padding-top: 10px;
-    float: left;
-    width: 120px;
-    height:auto;
-}
 
 .title {
     position: absolute;
@@ -508,6 +501,7 @@ p {
     border-radius: 10px;
     box-shadow: gray 0px 4px 12px;
     cursor: pointer;
+    background: none;
 }
 
 .gallery .card img {
@@ -594,7 +588,7 @@ p {
 }
 
 .book .submit:hover{
-    width:170px;
+    width:180px;
 }
 
  
@@ -682,7 +676,7 @@ p {
 }
 
 .contact .submit:hover{
-    width:170px;
+    width:180px;
 }
 
 
@@ -776,6 +770,8 @@ p {
     padding-bottom: 30px;
    
 }
+
+
 .videos-text h1 {
     text-align: center;
     text-shadow: 0px 1px 1px rgb(116, 111, 135);
@@ -784,6 +780,9 @@ p {
     padding-top: 50px;
 
   
+ }
+ .video-header img {
+    width: 90px;
  }
  
  .videos-text h1 span {
@@ -841,6 +840,9 @@ p {
     background-position: center ;
     position: relative;
 }
+.learn-header img {
+    width: 100px;
+}
 .title-scenary {
     position: absolute;
     top: 30%;
@@ -885,6 +887,7 @@ p {
     text-align: center;
    
  }
+
 
 
 
@@ -1155,8 +1158,8 @@ video {
        font-size: 15px;
 }
     
-nav img {
-    width: 40px;
+.video-header img {
+    width: 50px;
 }
 
 /*..... @media video page ends.....*/
@@ -1165,6 +1168,9 @@ nav img {
 /*..... @media learn page starts.....*/
 .title-scenary h1 {
     font-size: 13px;
+}
+.learn-header img {
+    width :60px;
 }
 
 
