@@ -907,8 +907,8 @@ p {
         font-size: 15px;
 }
 .white-btn {
-   padding: 6px 6px;
-   font-size: 8px;
+   padding: 3px 3px;
+   font-size: 6px;
 }
 
 
@@ -951,6 +951,14 @@ nav img {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+.keyfactor img {
+    width :50px;
+    height:50px;
+}
+
+.keyfactor .card-body h3 {
+    font-size: 20px;
 }
 .review .card-body h3 {
     color: #3f89ae;
@@ -1171,6 +1179,10 @@ video {
 }
 .learn-header img {
     width :60px;
+}
+.learn-btn {
+    padding: 6px 10px;
+    font-size: 8px;
 }
 
 
